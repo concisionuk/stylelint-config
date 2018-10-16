@@ -1,7 +1,7 @@
 {
-  "name": "stylelint-config-standard",
-  "version": "18.2.0",
-  "description": "Standard shareable config for stylelint",
+  "name": "stylelint-config-concision",
+  "version": "0.0.1",
+  "description": "Standard shareable stylelint config for Concision projects",
   "keywords": [
     "stylelint",
     "stylelint-config",
@@ -11,14 +11,17 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/stylelint/stylelint-config-standard.git"
+    "url": "https://git.concision.uk/concision/stylelint-config-concision.git"
   },
   "main": "index.js",
   "files": [
     "index.js"
   ],
   "dependencies": {
-    "stylelint-config-recommended": "^2.1.0"
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-config-recommended-scss": "^3.2.0",
+    "stylelint-no-unsupported-browser-features": "^3.0.2"
   },
   "devDependencies": {
     "eslint": "^5.0.0",
