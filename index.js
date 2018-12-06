@@ -7,10 +7,18 @@ module.exports = {
     'at-rule-no-unknown': [
       true,
       {
-        ignoreAtRules: ['extends', 'tailwind', 'apply', 'responsive', 'variants', 'screen', 'include']
+        ignoreAtRules: [
+          'extends',
+          'tailwind',
+          'apply',
+          'responsive',
+          'variants',
+          'screen',
+          'include'
+        ]
       }
     ],
-    'block-no-empty': true,
+    'block-no-empty': null,
     'plugin/no-unsupported-browser-features': [
       true,
       {
