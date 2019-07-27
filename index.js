@@ -2,7 +2,7 @@
 
 module.exports = {
   extends: ['stylelint-config-recommended-scss', 'stylelint-config-prettier'],
-  plugins: ['stylelint-no-unsupported-browser-features'],
+  plugins: ['stylelint-order'],
   rules: {
     'at-rule-no-unknown': [
       true,
@@ -18,12 +18,12 @@ module.exports = {
         ]
       }
     ],
+    'order/order': [
+        'custom-properties',
+        'declarations'
+    ],
+    'order/properties-alphabetical-order': true,
     'block-no-empty': null,
-    'plugin/no-unsupported-browser-features': [
-      true,
-      {
-        severity: 'warning'
-      }
-    ]
+    'no-descending-specificity': null
   }
 };
