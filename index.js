@@ -1,8 +1,12 @@
 'use strict';
 
 module.exports = {
-  extends: ['stylelint-config-recommended-scss', 'stylelint-config-prettier'],
-  plugins: ['stylelint-order'],
+  extends: [
+    'stylelint-config-recommended-scss',
+    'stylelint-config-rational-order',
+    'stylelint-config-prettier'
+  ],
+  plugins: [],
   rules: {
     'at-rule-no-unknown': [
       true,
@@ -19,11 +23,15 @@ module.exports = {
       }
     ],
     'order/order': [
-        'custom-properties',
-        'declarations'
+      'custom-properties',
+      'declarations'
     ],
-    'order/properties-alphabetical-order': true,
     'block-no-empty': null,
-    'no-descending-specificity': null
+    'no-descending-specificity': null,
+    "plugin/rational-order": [
+      true, {
+        "empty-line-between-groups": true,
+      }
+    ]
   }
 };
