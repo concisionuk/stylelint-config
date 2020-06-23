@@ -17,7 +17,7 @@
     "index.js"
   ],
   "dependencies": {
-    "stylelint-config-prettier": "8.0.1",
+    "stylelint-config-prettier": "8.0.2",
     "stylelint-config-rational-order": "0.1.2",
     "stylelint-config-recommended": "3.0.0",
     "stylelint-config-recommended-scss": "4.2.0",
