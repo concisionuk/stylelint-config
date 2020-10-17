@@ -1558,10 +1558,10 @@ eslint-config-prettier@^6.10.1:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-stylelint@12.1.0:
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-stylelint/-/eslint-config-stylelint-12.1.0.tgz#f0bc6943a28600c2f7b173b6a1e98117db8d4fd4"
-  integrity sha512-DDqptL24madtUumh/LPTDugdQXM2dkcL98Bzec5mv9htYdHzIoAbtsO4u9eziGsuw0kv6BvDs+qDLoCugYNUWQ==
+eslint-config-stylelint@13.0.0:
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-stylelint/-/eslint-config-stylelint-13.0.0.tgz#3c6151f51af94c1efaad221ae0a530a023310be5"
+  integrity sha512-EaaG/evY1UcoyB8nCp/Jz0EdNamOXPYbXDNwxyD7rNkVOCgBGRZgd0Dj8oYUMQCbLh8B749oI7pwgeGcdRSipw==
   dependencies:
     eslint-config-prettier "^6.10.1"
     eslint-plugin-eslint-comments "^3.1.2"
