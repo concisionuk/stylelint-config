@@ -67,6 +67,6 @@
   "resolutions": {
     "stylelint": "13.13.1",
     "minimist": ">=1.2.2",
-    "acorn": ">=7.1.1"
+    "acorn": "7.4.1"
   }
 }
